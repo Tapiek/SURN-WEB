@@ -1,91 +1,92 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Crew Roster</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    /* Hide scrollbar but allow scrolling */
-    ::-webkit-scrollbar {
-      display: none;
-    }
-    body {
-      background-color: #585858;
-      font-family: 'Roboto', sans-serif;
-      margin: 20px;
-      color: #e0e0e0;
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-    h1 {
-      text-align: center;
-      color: #f0f0f0;
-      margin-bottom: 10px;
-    }
-    nav {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1em;
-    }
-    table { 
-      border-collapse: collapse; 
-      width: 100%;
-      background-color: #3a3a3a;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
-    th, td { 
-      padding: 12px 15px;
-      text-align: left;
-      border: none;
-    }
-    th {
-      background-color: #444;
-      color: #fff;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      font-size: 0.9em;
-    }
-    .division-header, .department-header {
-      text-align: center;
-      font-weight: bold;
-      color: #fff;
-      padding: 15px;
-    }
-    .division-header {
-      font-size: 1.3em;
-    }
-    .department-header {
-      font-size: 1.2em;
-    }
-    tr:hover {
-      background-color: #505050;
-    }
-    /* Vertical bar for department color */
-    .dept-bar {
-      width: 3px;
-    }
-    /* Entry row style */
-    .entry-row td {
-      vertical-align: middle;
-    }
-  </style>
-</head>
-<body>
-  <nav>
-    <a href="#command" style="color: #C30010;">Command</a>
-    <a href="#science" style="color: #7393B3;">Science</a>
-    <a href="#operations" style="color: #FDDA0D;">Operations</a>
-  </nav>
-  <table>
-<tr class="division-header" style="background-color: #C30010;" id="command"><td colspan="7">Command Division</td></tr>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Crew Roster</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+          /* Hide scrollbars */
+          ::-webkit-scrollbar {
+            display: none;
+          }
+          body {
+            background-color: #585858;
+            font-family: 'Roboto', sans-serif;
+            margin: 0; /* Remove margin for full-width layout */
+            padding: 0;
+            color: #e0e0e0;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+          }
+          h1 {
+            text-align: center;
+            color: #f0f0f0;
+            margin: 10px 0;
+          }
+          nav {
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+          }
+          table { 
+            border-collapse: collapse; 
+            width: 100%;
+            background-color: #3a3a3a;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+          }
+          th, td { 
+            padding: 12px 15px;
+            text-align: left;
+            border: none;
+          }
+          th {
+            background-color: #444;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.9em;
+          }
+          .division-header, .department-header {
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+            padding: 15px;
+          }
+          .division-header {
+            font-size: 1.3em;
+          }
+          .department-header {
+            font-size: 1.2em;
+          }
+          tr:hover {
+            background-color: #505050;
+          }
+          /* Vertical bar for department color */
+          .dept-bar {
+            width: 3px;
+          }
+          /* Entry row style */
+          .entry-row td {
+            vertical-align: middle;
+          }
+        </style>
+      </head>
+      <body>
+        <nav>
+          <a href="#command" style="color: #C30010;">Command</a>
+          <a href="#science" style="color: #7393B3;">Science</a>
+          <a href="#operations" style="color: #FDDA0D;">Operations</a>
+        </nav>
+        <table>
+      <tr class="division-header" style="background-color: #C30010;" id="command"><td colspan="7">Command Division</td></tr>
 <tr class="department-header" style="background-color: #b22222;"><td colspan="7">Command</td></tr>
 <tr>
             <th style="width: 3px;"></th>
